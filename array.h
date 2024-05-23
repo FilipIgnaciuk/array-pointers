@@ -2,7 +2,7 @@
 #define ARRAY_POINTER_ARRAY_H
 #define SIZE 10
 
-void  enterValue(int *array);
+void enterValue(int *array);
 
 void printArray(int *array);
 

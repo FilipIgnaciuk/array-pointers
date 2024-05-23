@@ -1,16 +1,15 @@
 #include <iostream>
 #include "array.h"
 
-void  enterValue(int *array){
-    printf("Input values to array:\n");
+void enterValue(int *array){
     for (int i=0; i < SIZE; ++i) {
-        printf("*(array + %d) = ", i);
+        printf("array[%d] = ", i);
         scanf("%d", &*(array + i));
     }
 }
 void printArray(int *array) {
     for (int i = 0; i < SIZE; ++i) {
-        printf("*(array + %d) = %d\n",i, *(array + i));
+        printf("array[%d] = %d\n",i, *(array + i));
     }
 }
 int findMaximumValue(int *array) {
